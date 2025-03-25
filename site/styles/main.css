@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+.width-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+    margin-bottom: 3em;
+}
+
+footer hr {
+    width: 50%;
+    max-width: 890px;
+    min-width: 300px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border: none;
+    border-bottom: 3px dotted #000;
+}
+
+dt::after {
+    content: ":";
+}
+
+body {
+    background-color: #FFF9E3;
+    color: #333333;
+}
+
+.width-wrap {
+    background-color: #E0F7FA;
+}
+
+h1,
+h2,
+h3 {
+    color: #FF7043;
+}
+
+a {
+    color: #00BCD4;
+}
+
+a:hover {
+    color: #0097A7;
+}
+
+header a {
+    color: #8BC34A;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #689F38;
+}
+
+::selection {
+    background-color: #F8BBD0;
+    color: #333333;
+}
+
+header {
+    border-top: 4px rgba(0, 0, 0, 0.1);
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+header nav {
+    margin-left: 2em;
+    margin-right: 2em;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1em;
+    padding: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header nav ul li a::before {
+    margin-top: -4px;
+    border-top: 4px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em 1em 0.5em 1em;
+}
+
+header nav ul li a:hover {
+    border-top: 4px solid #FF7043;
+}
+
+th,
+td {
+    padding: 0.3em 1em;
+}
+
+thead th,
+tfoot th,
+tbody th {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+td {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody tr:nth-child(even) td {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+label {
+    display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"]+label {
+    display: inline;
+}
+
+input[type="submit"] {
+    border: none;
+    padding: 1em 3em;
+    background-color: #FF7043;
+    color: #6f6a6a;
+}
+
+input:invalid,
+textarea:invalid,
+select:invalid {
+    background-color: #FFEBEE;
+}
